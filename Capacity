@@ -1,0 +1,22 @@
+Consider a disk has 2 surfaces, each surface is divided into T tracks and each track is divided into S sectors, each sector is divided into B blocks. Each block has 512 bytes of memory. So find the capacity of the disk (in KB's).
+
+import java.util.Scanner;
+
+public class DiskCapacity {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+      
+        int T = sc.nextInt(); 
+        int S = sc.nextInt(); 
+        int B = sc.nextInt(); 
+
+        
+        int capacityKB = T * S * B;
+
+  
+        System.out.println(capacityKB);
+
+        sc.close();
+    }
+}
