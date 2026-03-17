@@ -1,0 +1,20 @@
+Convert the Speed kilometer per hour to meter per second.
+
+import java.util.Scanner;
+
+public class KmphToMps {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        
+        double kmph = sc.nextDouble();
+
+        
+        double mps = kmph * 5 / 18;
+
+      
+        System.out.printf("%.2f", mps);
+
+        sc.close();
+    }
+}
