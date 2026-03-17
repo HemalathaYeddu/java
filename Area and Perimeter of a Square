@@ -1,3 +1,4 @@
+Given side of the square.Calculate the Area and perimeter of a square.
 import java.util.Scanner;
 
 public class Main {
