@@ -1,3 +1,5 @@
+Find the loss percentage with given Cost Price and Selling Price
+Note: It's guaranteed that the test cases are designed in such way that you always get a loss.
 import java.util.*;
 
 public class Main {
