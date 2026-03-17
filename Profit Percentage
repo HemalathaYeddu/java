@@ -1,5 +1,7 @@
-import java.util.Scanner;
+Given Cost Price and Selling Price. Calculate the Profit Percentange.
+Note: It's guaranteed that the test cases are designed in such way that you always get a Profit.
 
+import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
