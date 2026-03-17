@@ -1,3 +1,4 @@
+Find the Hypotenuse of a right angled triangle with two given sides X,Y.
 import java.util.*;
 
 public class Main {
