@@ -1,0 +1,20 @@
+You'll be given a person's height in inches. Write a program to convert it into centimeters.
+
+import java.util.Scanner;
+
+public class InchesToCentimeters {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        // Input height in inches
+        double inches = sc.nextDouble();
+
+        // Convert to centimeters
+        double cm = inches * 2.54;
+
+        // Output with 2 decimal places
+        System.out.printf("%.2f", cm);
+
+        sc.close();
+    }
+}
